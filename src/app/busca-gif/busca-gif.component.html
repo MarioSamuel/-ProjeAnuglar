@@ -1,0 +1,16 @@
+<form action="">
+      <input type="text" 
+      placeholder="Pesquisar..." 
+      #searchText>     
+
+      <button (click)="search(searchText.value)">Buscador</button>
+</form>
+<div class="container">    
+
+    <div *ngFor="let gif of gifs">
+      
+      <div class="gifs-output">
+        <img class="gif" [src]="gif.images.fixed_width.webp">
+      </div>
+    </div>   
+</div>

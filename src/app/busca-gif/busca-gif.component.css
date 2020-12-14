@@ -1,0 +1,24 @@
+
+form{
+    text-align: center;
+ 
+}
+
+ button {
+color: rgb(0, 26, 255);
+ 
+}
+.container {
+    max-width: 100rem;
+  margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.gif {
+    border: 1px;
+    margin: 5pt;
+}
+
